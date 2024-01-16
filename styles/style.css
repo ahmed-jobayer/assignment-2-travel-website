@@ -15,7 +15,7 @@
 /* styles for header section */
 
 .header {
-  margin: 55px 135px;
+  margin: 55px 135px 100px 135px;
 }
 
 .title {
@@ -97,7 +97,7 @@
   padding: 16px;
   align-items: center;
   gap: 24px;
-  background: rgba(255, 255, 255, 0.30);
+  background: rgba(255, 255, 255, 0.3);
   border-radius: 0.5rem;
   margin-left: 140px;
 }
@@ -121,4 +121,40 @@
   border-radius: 0.5rem;
   background: #ff5400;
   border: none;
+}
+
+.section-1 {
+  display: flex;
+  margin: 0 135px 100px 135px;
+  gap: 50px;
+}
+
+.popular-h {
+  color: #131318;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.popular-p {
+  color: rgba(19, 19, 24, 0.7);
+  padding: 25px 0;
+}
+
+.popular-ul {
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.popular-b {
+  width: 174px;
+  height: 52px;
+  border-radius: 0.5rem;
+  background: #ff5400;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 800;
 }
