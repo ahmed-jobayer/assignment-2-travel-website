@@ -300,3 +300,45 @@
 .sec3-div3 {
   margin: 0 300px;
 }
+
+.section-4 {
+  margin: 0 135px 100px 135px;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.sec4-div1 {
+  padding: 2.5rem;
+  border-radius: 1rem;
+  border: 1px solid #ff5400;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-4 h3 {
+  color: #131318;
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding-bottom: 1rem;
+}
+
+.section-4 p {
+  color: #5a5a5d;
+  padding-bottom: 2.5rem;
+}
+
+.sec4-input {
+  height: 52px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  border: none;
+  padding-left: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.sec4-button {
+  height: 52px;
+  border-radius: 0.5rem;
+  background: #ff5400;
+  border: none;
+}
