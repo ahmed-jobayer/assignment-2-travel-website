@@ -342,3 +342,48 @@
   background: #ff5400;
   border: none;
 }
+
+footer {
+  height: 500px;
+  background: rgba(19, 19, 24, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foot-title {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.foot-image {
+  width: 50px;
+}
+
+.foot-travel {
+  color: #131318;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.foot-mania {
+  color: #ff5400;
+  font-size: 2rem;
+  font-weight: 800;
+}
+.foot-p {
+  color: #5a5a5d;
+  padding: 15px 335px 32px 335px;
+  text-align: center;
+}
+
+.icons {
+  padding-bottom: 50px;
+}
+
+.copyright {
+  padding: 50px 250px 0 250px;
+  border-top: 1px solid rgba(19, 19, 24, 0.10);;
+}
