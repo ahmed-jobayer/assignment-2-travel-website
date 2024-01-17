@@ -124,6 +124,8 @@
   font-weight: 700;
 }
 
+/* section 1 styles */
+
 .section-1 {
   display: flex;
   margin: 0 135px 100px 135px;
@@ -159,6 +161,8 @@
   font-size: 1.25rem;
   font-weight: 800;
 }
+
+/* section 2 styles */
 
 .section-2 {
   margin: 0 135px 100px 135px;
@@ -259,6 +263,8 @@
   align-items: center;
 }
 
+/* section 3 styles */
+
 .section-3 {
   margin: 0 135px 100px 135px;
 }
@@ -300,6 +306,8 @@
 .sec3-div3 {
   margin: 0 300px;
 }
+
+/* section 4 styles */
 
 .section-4 {
   margin: 0 135px 100px 135px;
@@ -375,6 +383,8 @@
   text-align: center;
 }
 
+/* styles of footer */
+
 footer {
   height: 500px;
   background: rgba(19, 19, 24, 0.05);
@@ -419,3 +429,146 @@ footer {
   padding: 50px 250px 0 250px;
   border-top: 1px solid rgba(19, 19, 24, 0.1);
 }
+
+/* responsive media quearies */
+
+@media screen and (max-width: 600px) {
+  .header {
+    margin: 0 20px;
+    margin-top: 40px;
+  }
+  .nav-options {
+    display: none;
+  }
+  .banner-title {
+    font-size: 22px;
+    font-weight: 800;
+    padding-top: 32px;
+  }
+
+  .banner-des {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .options {
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 24px; */
+    margin: 24px;
+  }
+
+  .banner-image {
+    background-size: cover;
+    height: 483px;
+  }
+
+  /* section 1 */
+  .section-1 {
+    flex-direction: column;
+    margin: 20px;
+  }
+  .popular-ul {
+    padding-left: 25px;
+  }
+
+  .sec-1-img {
+    width: 335px;
+    height: 342px;
+  }
+
+  /* sec2 */
+  .section-2 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .section-2 p {
+    padding: 33px;
+  }
+  .image-group1 {
+    flex-direction: column;
+  }
+  .Maldives {
+    background-size: cover;
+    width: 335px;
+    height: 176px;
+  }
+
+  .Indonesia {
+    background-size: cover;
+    width: 335px;
+    height: 176px;
+  }
+  .image-group2 {
+    flex-direction: column;
+  }
+  .Srilanka {
+    width: 335px;
+    height: 176px;
+    background-size: cover;
+  }
+  .North-America {
+    width: 335px;
+    height: 176px;
+    background-size: cover;
+  }
+  .Kashmir {
+    width: 335px;
+    height: 176px;
+    background-size: cover;
+  }
+  .image-group3 {
+    flex-direction: column;
+  }
+  .Bangladesh {
+    width: 335px;
+    height: 176px;
+    background-size: cover;
+  }
+  .Bandarban {
+    width: 335px;
+    height: 176px;
+    background-size: cover;
+  }
+ /* section 3 */
+
+  .section-3 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .section-3 > p {
+    margin: 20px;
+  }
+  .sec-3-part1 {
+    flex-direction: column;
+  }
+  .sec3-div3 {
+    margin: 0;
+  }
+
+  .section-4 {
+    flex-direction: column;
+    margin: 20px;
+  }
+  .sec4-div1 {
+    flex-direction: column;
+  }
+  .offer {
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
