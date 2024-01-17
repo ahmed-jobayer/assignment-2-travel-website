@@ -322,7 +322,7 @@
   padding-bottom: 1rem;
 }
 
-.section-4 p {
+.sec-4p {
   color: #5a5a5d;
   padding-bottom: 2.5rem;
 }
@@ -341,6 +341,38 @@
   border-radius: 0.5rem;
   background: #ff5400;
   border: none;
+}
+
+.sec4-img {
+  background: url(../Images/Rectangle\ 8.png);
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.offer {
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  border-radius: 16px;
+  background: #ff5400;
+  margin: 232px 0 0 380px;
+}
+
+.offer-p1 {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+.offer-p2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
 }
 
 footer {
@@ -385,5 +417,5 @@ footer {
 
 .copyright {
   padding: 50px 250px 0 250px;
-  border-top: 1px solid rgba(19, 19, 24, 0.10);;
+  border-top: 1px solid rgba(19, 19, 24, 0.1);
 }
